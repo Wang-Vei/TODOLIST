@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding :0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width:100%;
+    height:100%;
+}
+.header{
+    width:auto;
+    height:50px;
+    background: rgba(47,47,47,0.98);
+}
+.header .content{
+    width:600px;
+    height:100%;
+    margin:0 auto;
+}
+.header label{
+    line-height: 50px;
+    color:#ddd;
+    font-size: 24px;
+    cursor: pointer;
+}
+.header input{
+    float:right;
+    width:360px;
+    height:24px;
+    border-radius: 5px;
+    margin-top: 12px;
+    border: 0;
+    text-indent: 10px;
+    outline: 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+    padding:1px 0;
+}
+main{
+    width:auto;
+    height:585px;
+    background-color: #CDCDCD;
+}
+main .bigBox{
+    width:600px;
+    height:100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+main .bigBox .title{
+    width:auto;
+    height:31px;
+    margin:25px 0;
+}
+main .title h3{
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+    float:left;
+    line-height: 31px;
+}
+main .title .circle{
+    width:auto;
+    height:20px;
+    background-color: #E6E6FA;
+    float:right;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding:0 5px;
+}
+main .con .info{
+    width:100%;
+    height:32px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-left: 5px solid #629A9C;
+    margin-bottom: 15px;
+}
+main .con .info .checkbox{
+    width:22px;
+    height:22px;
+    margin-top: 5px;
+    margin-left:12px;
+    float: left;
+}
+main .con .info .text{
+    width:500px;
+    height:32px;
+    float:left;
+    line-height: 32px;
+    margin-left:5px;
+}
+#con2 .info{
+    border-left: 5px solid #A5A5A5;
+    margin-bottom: 15px;
+    opacity: 0.6;
+}
+main .con .info .text input{
+    width:100%;
+    height:29px;
+    outline: 0;
+    border:0;
+    color:red;
+    /*display:block;*/
+}
+main .con .info .del{
+    width:22px;
+    height:22px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    float:right;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+main .con .info .del::after{
+    display: block;
+    content: "-";
+    width:20px;
+    height:20px;
+    color: #fff;    
+    border:2px solid #fff;
+    border-radius: 50%;
+    margin-left: 1px;
+    margin-top: 1px;
+    font-weight: 600;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
